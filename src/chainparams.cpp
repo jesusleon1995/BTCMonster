@@ -120,10 +120,8 @@ public:
 
 
         vFixedSeeds.clear();
-        vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online1", "78.47.177.106:5677"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online2", "78.47.154.34:5677"));
-        vSeeds.push_back(CDNSSeedData("bitcoinmonster.online2", "78.47.154.38:5677"));
+        vSeeds.clear()
+        vSeeds.push_back(CDNSSeedData("banq.online", "seed1.banq.online"));
 
         // BitcoinMonster addresses start with 'M'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50);
